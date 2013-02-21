@@ -1,0 +1,219 @@
+li.facet-selected{
+	font-weight: bold;
+	background-color:#FFFBCF;
+}
+#facets {
+	background-color:#F4F4F4;
+	border:0px;
+	font-size:12px;
+	margin-right:5px;
+	min-height:100px;
+	width:200px;
+	padding:10px 5px;
+	overflow:hidden;
+}
+
+#facets,#pagination_top,#pagination_bottom,#summary,#results,#moreResults{
+	font-family:Arial,sans-serif;
+	font-size:10pt;
+}
+#facets a,#pagination_top a,#pagination_bottom a,#summary a,#results a,#moreResults a {
+	font-family:Arial,sans-serif;
+	font-size:10pt;
+}
+#moreResults {
+	background-color:#F4F4F4;
+	border:0px;
+	margin-left:5px;
+	min-height:100px;
+	min-width:150px;
+	overflow:hidden;
+	padding: 5px;
+}
+#moreResults a{
+	color: #0066CC;
+	text-decoration: none;
+}
+#moreResults a:visited{
+	color: #0066CC;
+}
+#moreResults a:hover{
+	text-decoration: underline;
+}
+#moreResults a.ext-res{
+	color:#666666;
+	cursor:pointer;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration:none;
+}
+#moreResults a.ext-res:hover{
+	text-decoration:underline;
+}
+#moreResults a.ext-res:visited{
+	color:#666666;
+	font-weight:bold;
+}
+#moreResults div.ext-res-div{
+	margin-bottom:8px;
+	margin-top:15px;
+}
+#pagination_bottom {
+	text-align:center;
+	margin:0px;
+	padding-top: 5px;
+}
+#pagination_top {
+	text-align:center;
+	margin:0px;
+	padding-top: 5px;
+}
+#results {
+	background-color:white;
+	border:0px;
+	margin:5px 5px 5px 5px;
+	min-height:100px;
+	min-width:450px;
+	overflow:hidden;
+	padding: 5px;
+}
+#results .lotitle a {
+	font-size:16px;
+	font-weight:normal;
+	margin:0px;
+	padding:0px;
+}
+#results .row{
+	margin-bottom:1em;
+        border: 2px solid #D4DEE2;
+}
+
+
+
+
+
+#search_status{
+	float:right;
+	font-weight: bold;
+	padding-top:5px;
+	padding-right:6px;
+	text-align:right;
+	white-space:nowrap;
+}
+#search_title{
+	float:left;
+	height:20px;
+	padding-left:6px;
+	padding-top:5px;
+	text-align:left;
+}
+#summary {
+	background-color:#EEEEEE;
+	height:30px;
+}
+#summary h1{color:#808080;margin:0;font-weight:normal;font-size:12pt;display:inline}
+.barfont{
+	color:#808080;
+	font-size:12pt
+}
+.control{float: left; padding-right: 5px;}
+.goog-te-sectional-gadget-link-text{color:blue;font-weight:bold;}
+.ico { background:url("../images/arrows.png") no-repeat scroll 0 0 transparent; }
+.ico{float:left;margin-right:5px;}
+.keywords{color:#008040}
+.keywords a, a :visited {
+	color:#008040;
+	font-size:10pt;
+}
+.lodescription{padding-top:2px;}
+
+.more_link{display:none;color:#f60;font-size:11px;font-weight:bold;text-decoration:none;margin-left:9px;}
+.more_link span{cursor:pointer;}
+.parent-selected{background-color:#FFFBCF;}
+.rbHeader{padding-left:5px;}
+.rbHeader .ws_label{font-weight:bold;cursor:pointer;}
+.rbHeader .ico{height:9px;width:5px;margin-top:2px;}
+.rbsrbo,.rbList{display:none;}
+.rbList{list-style-type:none;margin:0 6px;margin-left:9px;padding:0;overflow:hidden;}
+.rbList li{white-space:nowrap;color:#666;margin:2px 0;}
+.rbList li a,.rbList li a:visited{
+	color:#666;
+	fonta-size:12px;
+	text-decoration:none;
+}
+.rbList li a:hover{text-decoration:underline;}
+.rbOpen {}
+.rbOpen .rbList,.rbOpen .rbsrbo{display:block;}
+.rbOpen .rbHeader{padding-left:3px;}
+.rbOpen .rbHeader .ico{background-position:-5px 0px;width:9px;margin-right:3px;}
+.rbOpen .more_link{display:block;}
+.rbSection{margin-bottom:1em;font-size:12px;}
+.separator_top,.separator_bottom{
+	background-color:#EBEBEB;
+	clear:both;
+	height:30px;
+}
+.suspension-points{
+	font-weight: bold;
+}
+.yui-pg-page {
+	font-size:10pt;
+}
+
+
+#pagewidth {
+    text-align: center;
+}
+#topmenu {
+    background: none repeat scroll 0 0 transparent;
+    height: 240px;
+    width: 100%;
+}
+
+#site {
+    background: none repeat scroll 0 0 transparent;
+    float: left;
+    margin-left: 35%;
+    margin-top: 100px;
+    position: relative;
+}
+
+#searchbutton {
+    background: url("../images/search.jpg") no-repeat scroll 0 0 #EFF7FF;
+    border: 1.3pt outset;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    height: 50px;
+    margin-top: 2px;
+    width: 50px;
+   align: center;
+}
+
+#searchbutton1 {
+    background: url("../images/search.png") no-repeat scroll 0 0 #F1EDC2;
+    border: 1.3pt outset;
+    border-radius: 0px 05px 0px 0px;
+    cursor: pointer;
+    float: left;
+    height: 50px;
+    margin-top: 17px;
+    margin-left: 445px;
+    margin-top: -55px;
+    position:relative;
+    width: 50px;
+}
+
+.joomscontmask1 {
+    height: 360px;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+
+#form-search {
+    font-size: 2em;
+    height: 100px;
+    margin-left: 35%;
+    margin-top: 0%;
+    position:relative;
+}
